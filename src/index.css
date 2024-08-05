@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark{
+  @apply bg-[#252939] text-white 
+}
+.dark{
+  color:white !important
+  
+}
+.transition-all{
+ transition: background-color 1s ease, color 1s ease
+}
